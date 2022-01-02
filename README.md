@@ -3,8 +3,8 @@
 
 ### Abstract:
 
-According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.
-In this project our goal is to predict whether a patient is likely to get stroke based on the input (features).
+According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, Early action can reduce brain damage and other complications.
+In this project our goal is to predict whether a patient is likely to get stroke or not.
 
 ### Data Description:
 
