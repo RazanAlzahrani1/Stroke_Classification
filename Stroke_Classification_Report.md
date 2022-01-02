@@ -3,26 +3,45 @@
 
 ### Abstract:
 
-A News company want to know  what news topics people are interested in and prefer, which helps the company attracting largest number of people.
-### Data Description:
+The goal is of this project is to predict whether a patient is likely to get stroke or not. 
 
-The data will be used in this project is provided by <a href="https://www.kaggle.com/amananandrai/clickbait-dataset">Kaggle</a>. 
-it contains of 32000 rows and 2 columns.
+### Design::
+
+This project is one of the T5 Data Science Boot Camp requirements the data provided by <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a>. 
+
+### Data:
+The data will be used in this project is provided by <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a>. 
+Each row in the data provides relevant information about the patient, it contains of 5110 rows and 12 columns.
 
 Columns contains:
-1) headline: contains headlines from  different news sites 
-2) clickbait: which 1 represents it is clickbait and 0 represents non-clickbait
+
+1) id: unique identifier
+2) gender: "Male", "Female" or "Other"
+3) age: age of the patient
+4) hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
+5) heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
+6) ever_married: "No" or "Yes"
+7) work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+8) Residence_type: "Rural" or "Urban"
+9) avg_glucose_level: average glucose level in blood
+10) bmi: body mass index
+11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
+12) stroke: 1 if the patient had a stroke or 0 if not.
 
 
+Algorithms:
 
- What we gonna use: 
-  <ol>
-    
-  <li>Topic Modeling: To find the topic of the text and create new column topic </li>
-    
-  
-  <li>Nlb Classification: depending on the topics from topic modeling, classify it to know what type of news are clicked the most and predict what is the type of news depending on headline news </li>
-  </ol>
+1.	Load Data 
+2.	Exploratory Data Analysis
+3.	Feature Engineering 
+4.	Select Label-Target
+5.	Get dummies
+6.	Split model
+7.	Handling with Class Imbalance
+8.	Exp0(Logistic Regression), Exp1(Decision tree), Exp2(Random Forest),Exp3(KNN),Exp4(XGboost)
+9.	Voting & Stacking
+10.	Best threshold
+11.	Confusion metrics
 
 
 
@@ -30,14 +49,14 @@ Columns contains:
 
 •	Numpy and Pandas for data manipulation 
 
-•	Matplotlie and Seaborn and WordCloud for visualise data
+•	Matplotlie and Seaborn and for visualise data
 
 •	Sklearn 
 
-• NLTK
+• mlxtend
 
-• Keras 
+• imblearn 
 
 ### Communication:
 
-The slides are provided  in <a href="https://prezi.com/view/nGNUmOHkqRuDGpmBNGdQ/">Presentation</a>.
+The slides are provided <a href="https://github.com/RazanAlzahrani1/Stroke_Classification/blob/main/Stroke_Classification_Presentation.pdf">here</a>, and proposal provided at <a href="https://github.com/RazanAlzahrani1/Stroke_Classification">Readme</a> file of the project.
