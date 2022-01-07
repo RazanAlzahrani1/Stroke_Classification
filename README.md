@@ -8,7 +8,7 @@ In this project our goal is to predict whether a patient is likely to get stroke
 
 ### Data Description:
 
-The data will be used in this project is provided by <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a>. 
+The data that used in this project is provided by <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a>. 
 Each row in the data provides relavant information about the patient, it contains of 5110 rows and 12 columns.
 
 #### columns contain:
