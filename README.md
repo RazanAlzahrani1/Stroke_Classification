@@ -11,6 +11,8 @@ In this project our goal is to predict whether a patient is likely to get stroke
 The data will be used in this project is provided by <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a>. 
 Each row in the data provides relavant information about the patient, it contains of 5110 rows and 12 columns.
 
+#### columns contain:
+
 1) id: unique identifier
 2) gender: "Male", "Female" or "Other"
 3) age: age of the patient
