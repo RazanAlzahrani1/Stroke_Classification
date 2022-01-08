@@ -1,11 +1,11 @@
-# NLP News Company
+# Stroke Classification
 
 
 ### Abstract:
 
 The goal is of this project is to predict whether a patient is likely to get stroke or not. 
 
-### Design::
+### Design:
 
 This project is one of the T5 Data Science Boot Camp requirements the data provided by <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a>. 
 
@@ -59,4 +59,4 @@ Algorithms:
 
 ### Communication:
 
-The slides are provided <a href="https://github.com/RazanAlzahrani1/Stroke_Classification/blob/main/Stroke_Classification_Presentation.pdf">here</a>, and proposal provided at <a href="https://github.com/RazanAlzahrani1/Stroke_Classification">Readme</a> file of the project.
+The slides are provided <a href="https://github.com/modisultan/Stroke_Classification/blob/main/Stroke_classification_presnt.pdf">here</a>, and proposal provided at <a href="https://github.com/RazanAlzahrani1/Stroke_Classification">Readme</a> file of the project.
